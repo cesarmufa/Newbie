@@ -3,5 +3,6 @@ class WelcomeController < ApplicationController
     @text = 'Hello World, I`m doing this shit'
   end
   def goodbye
+    
   end
 end
