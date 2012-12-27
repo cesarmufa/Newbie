@@ -1,4 +1,7 @@
 class WelcomeController < ApplicationController
-  def index
+  def hello
+    @text = 'Hello World, I`m doing this shit'
+  end
+  def goodbye
   end
 end
